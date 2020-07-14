@@ -1,0 +1,337 @@
+<!doctype html>
+<html class="no-js" lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="theme-color" content="#fafafa">
+    <title>Responsive Website</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="icon" href="favicon.png">
+    <!--this two for browser support-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!--google font-->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Poppins:wght@300;400;500;600;700&family=Roboto+Slab:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!--==all css here==-->
+    <!--wow-->
+    <link rel="stylesheet" href="css/wow/animate.css">
+    <!--font awesome-->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <!--bootstrap-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--grid (for responsive in different browser less than 480 pixel) -->
+    <!--    <link rel="stylesheet" href="css/grid.css">-->
+    <!--main css-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--for responsive-->
+    <link rel="stylesheet" href="css/responsive.css">
+
+
+</head>
+
+<body>
+    <!--==Top Bar Start==-->
+    <div class="top-bar">
+        <div class="container">
+            <col-12 class="text-right">
+                <p><a href="tel:+18888555555">call us 24/7: For our Services</a></p>
+            </col-12>
+        </div>
+    </div>
+
+    <!--==Top Bar End==-->
+
+
+    <!--==Navigation Bar Start==-->
+
+    <nav class="navbar navbar-dark navbar-expand-lg">
+        <div class="container">
+            <a href="index.html" class="navbar-brand"><img src="img/faruk-codes-and-colors5.png" alt="img not found" title="logo" class="img-fluid"></a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto text-center">
+                    <li class="nav-item"><a href="" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="" class="nav-link">Services</a></li>
+                    <li class="nav-item"><a href="" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+    <!--==Navigation Bar End==-->
+
+    <!--==Image Carousel Start==-->
+    <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="6500">
+        <!--==Carousel Content Start==-->
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+                <img src="img/carousel/car11.jpg" alt="" class="w-100 img-fluid">
+                <div class="carousel-caption wow fadeInRightBig">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-8 bg-custom d-none d-lg-block py-3 px-0">
+                                <h1>Bootstrap</h1>
+                                <div class="border-top border-primary w-25 mx-auto my-4"></div>
+                                <h3 class="pb-3">Complete Website Design</h3>
+                                <a href="#" class="btn btn-danger btn-lg mr-1 btn_color1">View Demo</a>
+                                <a href="#" class="btn btn-primary btn-lg ml-1 btn_color2">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="img/carousel/car22.jpg" alt="" class="w-100 img-fluid">
+                <div class="carousel-caption wow fadeInLeftBig">
+                    <div class="container">
+                        <div class="row justify-content-end text-right">
+                            <div class="col-5 bg-custom d-none d-lg-block py-1 px-3  caption_2">
+                                <h1>HTML5 & CSS3</h1>
+                                <div class="border-top border-primary w-25 float-right my-4"></div>
+                                <p class="lead float-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <a href="#" class="btn btn-danger btn-lg mr-1 btn_color1 float-right">Mobile View</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="img/carousel/car33.jpg" alt="" class="w-100 img-fluid">
+                <div class="carousel-caption wow fadeInDownBig">
+                    <div class="container">
+                        <div class="row justify-content-end">
+                            <div class="col-8 bg-custom d-none d-lg-block py-3 px-0 caption_3">
+                                <h1>Website for Laptop</h1>
+                                <div class="border-top border-primary w-25 mx-auto my-4"></div>
+                                <p class="lead px-3 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam iste amet natus explicabo quas provident.</p>
+                                <a href="#" class="btn btn-danger btn-lg mr-1 btn_color1 mt-2">More Info</a>
+                                <a href="#" class="btn btn-primary btn-lg ml-1 btn_color2 mt-2">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--==Carousel Content End==-->
+
+    <!--==Previous and next button Start==-->
+    <a href="#carousel" class="carousel-control-prev" role="button" data-slide="prev">
+        <!--            <span class="fas fa-chevron-left fa-2x"></span>-->
+        <i class="fas fa-chevron-left fa-2x"></i>
+    </a>
+
+    <a href="#carousel" class="carousel-control-next" role="button" data-slide="next">
+        <i class="fas fa-chevron-right fa-2x"></i>
+    </a>
+    <!--==Previous and next button End==-->
+    <!--==Image Carousel End==-->
+
+
+    <!--==Main Page Heading Start==-->
+    <div class="col-12 text-center mt-5 expertise_content">
+        <h1 class="text-dark pt-4 wow fadeInDown">
+            Built With Expertise
+        </h1>
+        <hr class="mt-4 wow fadeInLeftBig">
+
+        <p class="lead wow fadeInUp">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel accusantium dignissimos nam odio, fugiat sit voluptatibus dolor earum temporibus adipisci tempora accusamus, soluta odit laboriosam?
+        </p>
+    </div>
+    <!--==Main Page Heading End==-->
+
+    <!--==Three Column Section Start==-->
+    <div class="container team_section">
+        <div class="row my-5 text-center">
+            <div class="col-md-4 my-4">
+                <img src="img/1.jpg" alt="img not found" class="img-fluid w-100 wow slideInRight">
+                <h4 class="my-4 wow fadeInDown">Amazing Team</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae in fugiat voluptatum ex hic laudantium facere perferendis illo fugit. In fugit, id aspernatur.</p>
+                <a class="btn btn-secondary rounded-0  mt-2 wow fadeInLeftBig" href="#" type="button">Our Story</a>
+            </div>
+
+            <div class="col-md-4 my-4">
+                <img src="img/2.jpg" alt="img not found" class="img-fluid w-100 wow slideInDown">
+                <h4 class="my-4 wow fadeInUp">Amazing Team</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae in fugiat voluptatum ex hic laudantium facere perferendis illo fugit. In fugit, id aspernatur.</p>
+                <a class="btn btn-secondary rounded-0  mt-2 wow fadeInDownBig" href="#" type="button">Our Story</a>
+            </div>
+
+            <div class="col-md-4 my-4">
+                <img src="img/3.jpg" alt="img not found" class="img-fluid w-100 wow slideInLeft">
+                <h4 class="my-4 wow fadeInDown">Amazing Team</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae in fugiat voluptatum ex hic laudantium facere perferendis illo fugit. In fugit, id aspernatur.</p>
+                <a class="btn btn-secondary rounded-0  mt-2 wow fadeInRightBig" href="#" type="button">Our Story</a>
+            </div>
+        </div>
+    </div>
+    <!--==Three Column Section End==-->
+
+
+
+    <!--==Fixed Background Section Start==-->
+
+    <div class="fixed-background">
+
+        <div class="row py-5 fixed_text">
+            <div class="col-12 text-center">
+                <h2 class="wow slideInRight">Advance Level Coding</h2>
+                <h4 class="py-4 wow slideInLeft">.... to the next level</h4>
+                <a href="#" class="btn btn-primary btn-lg mr-3 btn_color2 mt-2 wow fadeInUpBig">Order Now</a>
+                <a href="#" class="btn btn-danger btn-lg mr-1 btn_color1 mt-2 wow slideInDown">More Info</a>
+            </div>
+        </div>
+
+        <div class="fixed-wrap">
+            <div class="fixed">
+
+            </div>
+        </div>
+    </div>
+    <!--==Fixed Background Section End==-->
+    <hr class="lalal">
+    <!--==Two Column Section Start==-->
+    <div class="container my-5">
+        <div class="row py-4 expect_you">
+            <div class="col-lg-4 mb-4 wow bounceInLeft">
+                <h2 class="font-weight-bold mb-3">We have been expecting you</h2>
+                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis suscipit, assumenda, autem voluptas repellendus distinctio. Officia, at earum doloremque. Neque.</p>
+                <a href="" class="btn btn-outline-dark">Update Theme</a>
+            </div>
+
+            <div class="col-lg-8">
+                <img src="img/comm.jpg" alt="" class="img-fluid img-thumbnail wow bounceInRight">
+            </div>
+        </div>
+    </div>
+
+    <!--==Two Column Section End==-->
+
+
+
+    <hr class="lalal my-4">
+
+    <!--==Emozi Section Start==-->
+    <div class="emoji_section py-5 mb-5">
+        <a href="#emoji" class="sticky-top emoji" role="button" data-toggle="collapse"><i class="fas fa-ellipsis-v"></i></a>
+
+        <div class="collapse" id="emoji">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3"><img src="img/gif/panda.gif" alt="" class="w-100"></div>
+                    <div class="col-sm-6 col-md-3"><img src="img/gif/chicken.gif" alt="" class="w-100"></div>
+                    <div class="col-sm-6 col-md-3"><img src="img/gif/poo.gif" alt="" class="w-100"></div>
+                    <div class="col-sm-6 col-md-3"><img src="img/gif/unicorn.gif" alt="" class="w-100"></div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--==Emoji second==-->
+        
+
+        <!--==Emozi Section End==-->
+
+
+
+        <!--==Jumbotron Section Start==-->
+        <div class="jumbotron py-4 mb-0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7 col-lg-8 col-xl-9 my-auto wow bounceInDown">
+                        <p class="lead mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus praesentium omnis, cumque reiciendis consequuntur officiis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, voluptate Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <div class="col-md-5 col-lg-4 col-xl-3 mt-5">
+                        <a href="" class="btn ">Update Theme</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--==Jumbotron Section End==-->
+
+        <!--==Footer Section Start==-->
+
+        <footer>
+            <div class="container">
+                <div class="row text-center py-4 justify-content-center">
+                    <div class="col-sm-10 col-md-8 col-lg-6">
+                        <img src="img/faruk-codes-and-colors5.png" alt="" class="mt-5 mb-4 img-fluid wow bounceInDown">
+                        <hr class="lalalaaa">
+
+                        <p class="wow bounceOut">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel itaque veniam porro iusto impedit qui ipsum.</p>
+
+                        <hr class="lalalaaa">
+
+                        <ul class="footer_icon pb-3 wow bounceInUp">
+                            <li><a href="" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="" target="_blank"><i class="fab fa-behance"></i></a></li>
+                            <li><a href="" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!--==Footer Section End==-->
+
+
+        <!--==Socket Section Start==-->
+        <div class="socket">
+            <div class="container">
+                <div class="row text-center socket_just">
+                    <div class="col-12 mt-2 pt-1">
+                        <p>&copy; Faruk's Codes and Colors 2020</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--==Socket Section End==-->
+
+
+
+
+
+
+
+        <!--https://www.youtube.com/watch?v=TJF4ldO91n4-->
+
+
+
+
+
+
+
+
+
+        <script src="js/jquery-1.12.4.min.js"></script>
+        <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/wow_js/wow.min.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/myScript.js"></script>
+
+
+
+</body>
+
+</html>

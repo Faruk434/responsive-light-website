@@ -1,0 +1,481 @@
+/*-- Body Reset --*/
+body {
+    overflow-x: hidden;
+    font-family: 'open sans', sans-serif;
+    color: #616971;
+    margin: 0;
+    padding: 0;
+}
+
+/*============= TOP BAR HEADER =============*/
+.top-bar {
+    background: #F82033;
+    height: 44px;
+    padding: 8px 0px;
+}
+
+.top-bar a {
+    color: #e4e1e1;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.top-bar a:hover {
+   
+        color: #70A4BD;
+}
+
+
+/*============= NAVIGATION START =============*/
+.navbar {
+    background: #d5dbdb;
+    -webkit-box-shadow: ;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, .1);
+    z-index: 5;
+}
+
+.navbar-dark .navbar-toggler {
+    color: red!important;
+    border-color: 1px solid #454545!important;
+}
+span.navbar-toggler-icon{
+    background: #F82033;
+    color: aqua!important;
+}
+
+.navbar-brand img {
+    height: 34px;
+}
+
+.nav-link {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #70A4BD !important;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.nav-link.active,
+.nav-link:hover {
+    color: #F82033 !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:last-child {
+    padding-right: 0rem;
+    padding-left: 2rem;
+
+}
+
+/*============= NAVIGATION END =============*/
+
+/*============= CAROUSEL START =============*/
+#carousel {
+    -webkit-box-shadow: 0px 16px;
+    box-shadow: 0px 16px 16px rgba(0, 0, 0, .1);
+}
+
+
+
+
+/*---Change Carousel Transition Speed --*/
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+    -webkit-transition: -webkit-transform 1.2s ease;
+    transition: -webkit-transform 1.2s ease;
+    transition: transform 1.2s ease;
+    transition: transform 1.2s ease, -webkit-transform 1.2s ease;
+}
+
+/*-- Carousel Content --*/
+.carousel-caption {
+    position: absolute;
+    top: 54%;
+    -webkit-transform: translateY();
+    transform: translateY(-50%);
+    text-transform: uppercase;
+}
+
+.bg-custom {
+    background: rgba(0, 0, 0, .4);
+    color: #fff;
+    border-radius: 20px;
+    height: 265px;
+}
+
+.carousel-caption h1 {
+    font-size: 54px;
+    font-weight: 500;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 1);
+}
+
+.border-primary {
+    border-top: 3px solid #70A4BD !important;
+}
+
+.btn_color2 {
+    background: #E4E1E1;
+    color: #F82033 !important;
+    font-size: 16px;
+    border: none !important;
+    -webkit-transition: .3s;
+    transition: .3s;
+    width: 140px;
+}
+
+.btn_color2:hover {
+    color: #E4E1E1 !important;
+    background: #F82033 !important;
+    border: none !important;
+
+}
+
+
+.btn_color1 {
+    color: #E4E1E1 !important;
+    background: #F82033 !important;
+    font-size: 16px;
+    border: none !important;
+    -webkit-transition: .3s;
+    transition: .3s;
+    width: 140px;
+}
+
+.btn_color1:hover {
+    background: #E4E1E1 !important;
+    color: #F82033 !important;
+    border: none !important;
+}
+
+
+.carousel-caption h3 {
+    font-size: 32px;
+    font-weight: 500;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
+}
+
+.caption_2 {
+    width: 550px;
+    height: 265px;
+}
+
+.caption_3 {
+    height: 305px;
+}
+
+
+.carousel-control-prev,
+.carousel-control-next {
+    margin-top: 135px;
+
+}
+
+/*Main Page Heading Start*/
+.expertise_content h1 {
+    font-size: 54px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.expertise_content p {
+    padding: 0px 170px;
+}
+
+.expertise_content hr {
+    width: 10%;
+    height: 3px;
+    background: #F82033;
+
+}
+
+/*Main Page Heading End*/
+
+/*Three Column Section Start*/
+.team_section h4 {
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.team_section p {
+    line-height: 28px;
+    text-align: center
+}
+
+.team_section a {
+    color: #f82033 !important;
+    outline: 1px solid #F82033 !important;
+    background: none;
+    font-size: 12px;
+    border: none !important;
+    font-weight: 600;
+    -webkit-transition: .3s;
+    transition: .3s;
+    width: 100px;
+    height: 35px;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+.team_section a:hover {
+    background: #F82033 !important;
+    color: #e4e1e1 !important;
+    border: none !important;
+}
+
+/*Three Column Section End*/
+
+
+/*============= CAROUSEL END =============*/
+
+/*===== FIXED BACKGROUND IMG =====*/
+
+.fixed-background {
+    position: relative;
+    width: 100%;
+    z-index: 1000 !important;
+    height: 815px;
+    padding: 160px 0px;
+}
+
+.fixed-wrap {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -999 !important;
+}
+
+.fixed {
+    background: url(../img/fbg.jpg);
+    position: fixed;
+    z-index: -999 !important;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    will-change: transform;
+
+}
+
+.fixed:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, .5);
+}
+
+.fixed_text h2 {
+    color: #E4E1E1;
+    font-size: 48px;
+}
+
+.fixed_text h4 {
+    color: #E4E1E1;
+    font-size: 32px;
+}
+
+.expect_you a {
+    color: #f82033 !important;
+    outline: 1px solid #F82033 !important;
+    background: none;
+    font-size: 12px;
+    border: none !important;
+    font-weight: 600;
+    -webkit-transition: .3s;
+    transition: .3s;
+    width: 140px;
+    height: 35px;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+.expect_you a:hover {
+    background: #F82033;
+    color: #E4E1E1 !important;
+    border-radius: 0 !important;
+}
+
+.expect_you img {
+    width: 100% height: auto;
+    border-radius: 5px;
+}
+
+.expect_you {}
+
+
+/*-- Emoji Navbar --*/
+.emoji {
+    width: 100%;
+    height: 50px;
+ margin-left: 50%
+}
+
+.fa-ellipsis-v{
+    font-size: 40px;
+    margin: 20px auto;
+    color: #F82033;
+    text-decoration: none !important;
+      
+   }
+
+#emoji{
+    margin-top: 30px;
+   }
+.emoji{
+    padding-bottom: 300px;
+}
+
+.lalal{
+    width: 100%;
+    height: 1px;
+    background: #e4e1e1;
+}
+
+/*jumbotron start*/
+.jumbotron{
+    background: #F82033;
+    border-radius: 0;
+}
+
+.jumbotron p{
+    color: #e4e1e1;
+    line-height: 32px;
+}
+
+.jumbotron a{
+    outline: 1px solid #e4e1e1!important;
+    color: #e4e1e1;
+    transition: .3s;
+    margin-left: 96px;
+}
+
+.jumbotron a:hover{
+    background: #e4e1e1;
+    color: #F82033;
+    border-radius: 0;
+}
+
+/*============= FOOTER =============*/
+footer{
+    background: #0e1a1f;
+   }
+
+footer p{
+    color: #e4e1e1;
+}
+
+
+
+
+
+.footer_icon{
+    list-style-type: none!important;
+    margin-left: -20px;
+    margin-top: 30px;
+}
+.footer_icon li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer_icon li a{
+    width: 30px;
+    height: 30px;
+    background: #e4e1e1;
+    border-radius: 50%;
+    display: block;
+    line-height: 30px;
+    color: #f82033;
+    font-size: 15px;
+    text-decoration: none!important;
+    border: none!imporant;
+    transition: .3s;
+}
+.footer_icon li a:hover{
+    background: #f82033!important;
+    color: #e4e1e1!important;
+    outline: 0;
+}
+.lalalaaa{
+      width: 50%;
+    height: 1px;
+    background: #f82033;
+}
+
+.socket{
+    background: #F82033;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.socket p{
+    font-size: 20px;
+    color: #e4e1e1;
+}
+
+
+/*============= SOCKET =============*/
+
+
+
+/*============= MEDIA QUERIES =============*/
+
+/* Devices under 1199px (xl) */
+@media (max-width: 1199.98px) {}
+
+/* Devices under 768px (md) */
+@media (max-width: 767.98px) {}
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
+
+/*-- Bootstrap Mobile Gutter Fix --*/
+.row,
+.container-fluid {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+/*-- Fixed Background Image --*/
+
+
+
+
+
+
+
+
+
